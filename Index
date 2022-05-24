@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>  EUFONÍA - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="imgbg.jpg" alt="Eufonía"> EUFONÍA </li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/About.html">About</a></li>
+            <li> <a href="/guidelines.html">User Guidelines</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>ITW EUFONÍA</h1>
+            <div class=songItemContainer></div>
+             <div class="songItem">
+                    <img  src="covers/1.jpg">
+                    <h2><button class="button"> <a href="playlist1.html"> <h2>ENGLISH SONGS</h2></a></button> 
+                    <span class="timestamp"> <i id="0" ></i> </span>
+                </div>
+                <div class="songItem">
+                    <img  src="covers/2.jpg">
+                    <h2><button class="button"> <a href="playlist2.html"> <h2>PUNJABI SONGS</h2></a></button>
+                    <span class="timestamp"> <i id="1" ></i> </span>
+                </div> 
+                <div class="songItem">
+                    <img src="covers/3.jpg">
+                    <h2><button class="button"> <a href="ps3.html"> <h2>HINDI SONGS</h2></a></button>
+                    <span class="timestamp"><i id="2"></i> </span>
+                </div>
+                
+            </div>        
+
+</body>
+</html>
